@@ -17,7 +17,7 @@ public class SesEmailSender implements EmailSenderGateway {
   @Override
   public void sendEmail(String to, String subject, String body) {
     var sendEmailRequest = new SendEmailRequest();
-    sendEmailRequest.withSource("brunopapait@gmail.com");
+    sendEmailRequest.withSource("brunohpapait@gmail.com");
     sendEmailRequest.withDestination(new Destination().withToAddresses(to));
 
     var message = new Message();
