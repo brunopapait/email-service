@@ -1,6 +1,5 @@
 package br.com.papait.bruno.emailservice.infra.ses.config;
 
-import com.amazonaws.regions.Regions;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder;
 import org.springframework.context.annotation.Bean;
